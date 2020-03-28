@@ -10,15 +10,27 @@ import './styles/global.css'
 
 /*teste*/
 
-
-
 class App extends Component {
   constructor() {
     super();
     this.state = {
-       className: ''
+       className: 'hidden'
     }
+  }   handleScroll() { 
+   if (document.documentElement.scrollTop > 430) {
+      this.setState({
+        className: 'show'
+      })
+    } 
+  }   componentDidMount() {
+    window.onscroll = () => this.handleScroll()
   }
+
+
+
+
+
+
   render() {
     return(
       <div>
