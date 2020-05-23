@@ -1,12 +1,43 @@
-import React from 'react';
+import React,{useState} from 'react';
 import './style.css';
-import iconfacebook from '../../assets/svg/iconfacebook.svg'
 import iconinstagran from '../../assets/svg/iconinstagran.svg'
 import iconlinkedin from '../../assets/svg/iconlinkedin.svg'
+import { useHistory } from 'react-router-dom';
 
+import api from '../../services/api'
 
 
 const Contato = () => {
+
+
+   const [name, setName] = useState('');
+   const [phone, setPhone] = useState('');
+   const [email, setEmail] = useState('');
+   const [description, setDescription] = useState('');
+
+   const history = useHistory()
+
+   async function sendEmail(e){
+      //e.preventDefault();
+
+      const data = ({
+         name,
+         phone,
+         email,
+         description
+      })
+
+      try {
+         const response = await api.post('/', data);
+         alert('Obrigado por nos contactar, em breve entraremos em contato!');
+         history.post('/');
+
+      } catch (err){
+         console.log('Erro ao enviar contato');
+      }
+
+   }
+
 
    return(
    <container id="contato" className="container__contato">
@@ -17,12 +48,43 @@ const Contato = () => {
 
          <div className="contato__itens">
          <div className="contato__form">
-            <form className="form">
+            <form className="form" onSubmit={sendEmail}>
          
-               <input type="text" id="name" name="fname" placeholder=" Nome"></input>
-               <input type="tel" id="fone" name="fone" placeholder=" 55 (00) 00000-0000"></input>
-               <input type="e-mail" id="email" name="email" placeholder=" E-mail"></input>
-               <textarea type="mensage" id="mensage" placeholder="Nós diga o que você está pensando..." ></textarea>
+               <input 
+                  type="text" 
+                  id="name" 
+                  name="name" 
+                  placeholder=" Nome"
+                  value={name}
+                  onChange={e => setName(e.target.value)} >
+               </input>
+
+               <input 
+                  type="tel" 
+                  id="phone" 
+                  name="phone" 
+                  placeholder=" 55 (00) 00000-0000"
+                  value={phone}
+                  onChange={e => setPhone(e.target.value)} >
+               </input>
+
+               <input 
+                  type="e-mail" 
+                  id="email" 
+                  name="email" 
+                  placeholder=" E-mail"
+                  value={email}
+                  onChange={e => setEmail(e.target.value)} >
+               </input>
+
+               <textarea 
+                  type="description" 
+                  id="description" 
+                  placeholder="Nós diga o que você está pensando..." 
+                  value={description}
+                  onChange={e => setDescription(e.target.value)} >
+               </textarea>
+
                <button type="submit">Enviar</button>
             </form>
          </div>
