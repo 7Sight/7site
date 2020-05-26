@@ -28,9 +28,13 @@ const Contato = () => {
       })
 
       try {
-         const response = await api.post('/', data);
+         const response = await api.post('/sendEmail', data);
+         
          alert('Obrigado por nos contactar, em breve entraremos em contato!');
+         
          history.post('/');
+
+
 
       } catch (err){
          console.log('Erro ao enviar contato');
