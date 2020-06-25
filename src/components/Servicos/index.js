@@ -1,16 +1,46 @@
 import React, { Component } from 'react';
 import './style.css'
 
+<<<<<<< HEAD
 class Servicos extends Component {
 
+=======
+console.log(document.documentElement.scrollTop);
+
+class Servicos extends Component {
+
+   state = {
+      className : ''
+   }
+
+   handleScroll() { 
+      if (document.documentElement.scrollTop >= 1757) {
+         this.setState({
+           className: 'servicos__website'
+         })
+       } 
+     }
+
+   componentDidMount() {
+      window.onscroll = () => this.handleScroll()
+    }
+
+>>>>>>> 36cb93137cf9c054ea7d1aea7fbd876c3a4d5bb7
    render() {
       return (
          <section id="servicos" className="container__servicos">
             <div className="servicos">
                <div className="title__servicos">Servicos</div>
                <div className="traco"></div>
+<<<<<<< HEAD
                <div className="servicos__itens">
                   <div className={this.props.className}>
+=======
+
+
+               <div className="servicos__itens">
+                  <div className={this.state.className}>
+>>>>>>> 36cb93137cf9c054ea7d1aea7fbd876c3a4d5bb7
                      <div className="website__nav">
                         <div className="website__logo"></div>
                         

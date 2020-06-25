@@ -8,10 +8,18 @@ import Contato from './components/Contato'
 
 import './styles/global.css'
 
+<<<<<<< HEAD
+=======
+/*teste*/
+
+
+
+>>>>>>> 36cb93137cf9c054ea7d1aea7fbd876c3a4d5bb7
 class App extends Component {
   constructor() {
     super();
     this.state = {
+<<<<<<< HEAD
        classNameServicos: '',
        classNameTime: 'time__info_h'
     }
@@ -35,14 +43,24 @@ class App extends Component {
     window.onscroll = () => this.handleScroll()
   }
 
+=======
+       className: ''
+    }
+  }
+>>>>>>> 36cb93137cf9c054ea7d1aea7fbd876c3a4d5bb7
   render() {
     return(
       <div>
         <Header />
         <Home/>
         <Sobre />
+<<<<<<< HEAD
         <Time className={this.state.classNameTime}/>
         <Servicos className={this.state.classNameServicos}/>
+=======
+        <Time />
+        <Servicos />
+>>>>>>> 36cb93137cf9c054ea7d1aea7fbd876c3a4d5bb7
         <Contato />
       </div>
     )

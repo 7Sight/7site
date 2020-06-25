@@ -115,6 +115,7 @@ html{
     animation-duration: 2s;
     animation-delay: 2.5s;
     animation-fill-mode: forwards;
+    margin-bottom: 1em;   
 }
 
 .time__text{
@@ -137,6 +138,14 @@ html{
     border-radius: 5%;
     margin-top: 70px;
 }
+    .time__info{
+        margin-top: 1.5em;
+    }
+    .time_image{
+        width:69% !important;
+        border-radius: 5%;
+        margin-top: 70px;
+    }
 
 @media (max-width: 800px) {
 
@@ -160,6 +169,7 @@ html{
         width: 100%;
     }
 }
+
 }
 
 @keyframes time{
