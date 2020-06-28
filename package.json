@@ -10,10 +10,6 @@
     "bootstrap": "^4.4.1",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
-<<<<<<< HEAD
-=======
-    "react-router-dom": "^5.2.0",
->>>>>>> 36cb93137cf9c054ea7d1aea7fbd876c3a4d5bb7
     "react-scripts": "3.4.0",
     "reactstrap": "^8.4.1",
     "webfontloader": "^1.6.28"

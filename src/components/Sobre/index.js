@@ -27,7 +27,7 @@ const Sobre = () => {
                         atender nossos clientes buscando sempre a
                         melhor solução!
                     </p> 
-                    <img className="sobre__image" src={image}/> 
+                <img className="sobre__image" src={image} alt="Imagem da 7sight" /> 
                       
                 </div>
             </div>
