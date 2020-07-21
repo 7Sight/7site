@@ -125,6 +125,8 @@ html{
     font-size: 1em;
     text-align: center !important;
     margin-top: 20px;
+    margin-bottom: 10px;
+    height: 20px;
 }
 
 .time__text__cargo{
@@ -132,11 +134,15 @@ html{
     font-family: Montserrat-Regular;    
     font-size: 1em;
     text-align: center !important;
-    height : 60px;
+    height : 40px;
     margin-top : 10px;
     margin-bottom: 10px;
+
    
    
+}
+.time__icons{
+    
 }
 .time_instF{
     font-size: 30px;
@@ -153,8 +159,14 @@ html{
         margin-top: 1.5em;
 }
     
+@media (max-width: 1000px) {
+    .time__text__cargo{
+        font-size: 0.7em;
+    }
 
-@media (max-width: 800px) {
+}
+
+@media (max-width: 900px) {
 
 
 
