@@ -115,18 +115,29 @@ html{
     animation-duration: 2s;
     animation-delay: 2.5s;
     animation-fill-mode: forwards;
-    margin-bottom: 1em;   
+      
 }
+
 
 .time__text{
     color: white !important;
     font-family: Montserrat-Regular;    
-    font-size: 1.25em;
+    font-size: 1em;
     text-align: center !important;
     margin-top: 20px;
-   
 }
 
+.time__text__cargo{
+    color: white !important;
+    font-family: Montserrat-Regular;    
+    font-size: 1em;
+    text-align: center !important;
+    height : 60px;
+    margin-top : 10px;
+    margin-bottom: 10px;
+   
+   
+}
 .time_instF{
     font-size: 30px;
     color:#6CE95A;
@@ -134,22 +145,18 @@ html{
 }
 
 .time_image{
-    width:69% !important;
+    width:69% ;
     border-radius: 5%;
     margin-top: 70px;
 }
-    .time__info{
+.time__info{
         margin-top: 1.5em;
-    }
-    .time_image{
-        width:69% !important;
-        border-radius: 5%;
-        margin-top: 70px;
-    }
+}
+    
 
 @media (max-width: 800px) {
 
-@media (max-width: 900px) {
+
 
 
     .time__info{    
@@ -164,11 +171,17 @@ html{
         width: 100%; 
 
     }
-    .time__image{
-        margin: 1em 0 0;
-        width: 100%;
+    .time__text__cargo{
+        font-size: 1em;
+
     }
-}
+    .time_image{
+        width: 30% !important;
+        margin: 1em 0 0;
+       
+         
+    }
+
 
 }
 
