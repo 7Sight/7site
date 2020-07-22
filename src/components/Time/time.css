@@ -147,7 +147,7 @@ html{
 .time_instF{
     font-size: 30px;
     color:#6CE95A;
-    margin: 6%;
+    margin: 15% 5% 15% 5% ;
 }
 
 .time_image{
@@ -163,11 +163,17 @@ html{
     .time__text__cargo{
         font-size: 0.7em;
     }
+    .time_instF{
+        margin: 25% 5% 15% 5% ;
+    }
 
 }
 
 @media (max-width: 900px) {
 
+    .time_instF{
+        margin: 6%;
+    }
 
 
 
