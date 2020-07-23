@@ -54,7 +54,7 @@ html{
 .sobre__info{
 
     display: flex;
-    align-items: flex-end;
+    align-items: flex-start;
     justify-content: space-between;
     margin-bottom: 1em;
     
@@ -66,6 +66,7 @@ html{
     width: 40%;
     font-family: Montserrat-Regular;    
     font-size: 1.25em;
+    margin: 1em;
 }
 
 .sobre__image{
