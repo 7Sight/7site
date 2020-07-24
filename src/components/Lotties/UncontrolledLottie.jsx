@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Lottie from 'react-lottie'
 import animationData from '../../lotties/lf30_editor_4hpwS0.json'
 
+
 class UncontrolledLottie extends Component {
 
 
@@ -20,8 +21,8 @@ class UncontrolledLottie extends Component {
     return(
       <div>
         <Lottie options={defaultOptions}
-              height={350}
-              width={350}
+              height={500}
+              width={500}
               resizeMode="contain"
               autoZise
         />
