@@ -83,6 +83,8 @@ html{
     animation-duration: 2s;
     animation-delay: 0.5s;
     animation-fill-mode: forwards;
+    width:100% ;
+    height:100% ;
 }
 
 .time__info .memb_card1 {
@@ -91,6 +93,8 @@ html{
     animation-duration: 2s;
     animation-delay: 1s;
     animation-fill-mode: forwards;
+    width:100% ;
+    height:100% ;
 }
 
 .time__info .memb_card2 {
@@ -99,6 +103,8 @@ html{
     animation-duration: 2s;
     animation-delay: 1.5s;
     animation-fill-mode: forwards;
+    width:100% ;
+    height:100% ;
 }
 
 .time__info .memb_card3 {
@@ -107,6 +113,8 @@ html{
     animation-duration: 2s;
     animation-delay: 2s;
     animation-fill-mode: forwards;
+    width:100% ;
+    height:100% ;
 }
 
 .time__info .memb_card4 {
@@ -115,6 +123,8 @@ html{
     animation-duration: 2s;
     animation-delay: 2.5s;
     animation-fill-mode: forwards;
+    width:100% ;
+    height:100% ;
       
 }
 

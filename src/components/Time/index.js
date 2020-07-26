@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import './time.css'
-import image from './image.png'
+import image from './jess.jpg'
+import image1 from './aline.jpg'
+import image2 from './carlos.jpg'
+import image3 from './vitor.jpg'
+import image4 from './jonas.jpg'
 
 import TimeMembers from '../TimeMembers/timeMembers'
 
@@ -23,19 +27,19 @@ render(){
             linkedin="https://www.linkedin.com/in/jessicamazonimoura/" />
             </div>
             <div className="memb_card1">
-            <TimeMembers class="memb_card1" image={image} name="Vítor Rocha" board="Diretor Administrativo Financeiro" insta="https://www.instagram.com/viitor_rocha/"
+            <TimeMembers class="memb_card1" image={image3} name="Vítor Rocha" board="Diretor Administrativo Financeiro" insta="https://www.instagram.com/viitor_rocha/"
             linkedin="https://www.linkedin.com/in/vítor-rocha-morais" />
             </div>
             <div className="memb_card2">
-            <TimeMembers image={image} name="Jonas Salatiel" board="Diretor de Projetos" insta="https://www.instagram.com/jonassalatiel/?hl=pt-br"
+            <TimeMembers image={image4} name="Jonas Salatiel" board="Diretor de Projetos" insta="https://www.instagram.com/jonassalatiel/?hl=pt-br"
             linkedin="https://www.linkedin.com/in/jonas-salatiel/" />
             </div>
             <div className="memb_card3">
-            <TimeMembers image={image} name="Aline Lopes" board="Diretora de Gestão de Pessoas" insta="https://www.instagram.com/aline_lopes___/"
+            <TimeMembers image={image1} name="Aline Lopes" board="Diretora de Gestão de Pessoas" insta="https://www.instagram.com/aline_lopes___/"
             linkedin="https://www.linkedin.com/in/aline-lopes-49b398189/" />
             </div>
             <div className="memb_card4">
-            <TimeMembers image={image} name="Carlos Henrique" board="Diretor de Marketing e Comercial" insta="https://www.instagram.com/pradohenriq/"
+            <TimeMembers image={image2} name="Carlos Henrique" board="Diretor de Marketing e Comercial" insta="https://www.instagram.com/pradohenriq/"
             linkedin="https://www.linkedin.com/in/carloshprado/" />
             </div>
          </div>
