@@ -1,18 +1,21 @@
 @font-face{
     font-family: Oswald-Regular;
-    src: url(../assets/fonts/Oswald-Regular.ttf);
     
+    src: url(../../assets/fonts/Oswald-Regular.ttf);
 }
 
 @font-face{
     font-family: Montserrat-Regular;
-    src: url(../assets/fonts/Montserrat-Regular.ttf);
+    src: url(../../assets/fonts/Montserrat-Regular.ttf);
+    
 }
 
 @font-face{
     font-family: Montserrat-Bold;
-    src: url(../assets/fonts/Montserrat-Bold.ttf);
+    src: url(../../assets/fonts/Montserrat-Bold.ttf);
 }
+ 
+
 
 .navbar-toggler {
     width: 60px;
@@ -33,6 +36,8 @@
     font-family: Montserrat-Bold;
     opacity: 84%;
     font-size: 1em;
+    max-width: 1400px;
+    margin: 0 auto;
     
 }
 
