@@ -10,7 +10,7 @@ import {
 } from 'reactstrap';
 
 
-import '../../styles/navbar.css'
+import './style.css'
 const Header = () => {
 const [isOpen, setIsOpen] = useState(false);
 const toggle = () => setIsOpen(!isOpen);
@@ -44,6 +44,7 @@ const toggle = () => setIsOpen(!isOpen);
         </Collapse>
       </Navbar>
     </div>
+   
    );
 }
 
