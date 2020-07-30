@@ -57,6 +57,7 @@ html{
     align-items: flex-start;
     justify-content: space-between;
     margin-bottom: 1em;
+    margin-top: 5em;
     
 }
 
@@ -66,7 +67,9 @@ html{
     width: 40%;
     font-family: Montserrat-Regular;    
     font-size: 1.25em;
-    margin: 1em;
+    align-self: justify-content !important;
+    font-size: 1.1em;
+    
 }
 
 .sobre__image{
@@ -76,22 +79,6 @@ html{
     margin: 1em;
     align-items: center;
 }
-
-
-    .sobre__info{
-
-        margin-top: 1.5em;
-    }
-
-    .sobre__text{
-        align-self: justify-content !important;
-        font-size: 1.1em;
-        width: 40%;
-        
-    }
-    .sobre__image{
-        width: 45%;
-    }
 
 
 
