@@ -70,3 +70,13 @@
 .fab{
     z-index: 5;
 }
+
+.logo_image{
+   width: 25%;
+}
+
+.navbar-brand{
+    padding:0 !important;
+    margin: 0 !important;
+    border: 0 !important;
+}

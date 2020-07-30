@@ -8,8 +8,7 @@ import {
   NavItem,
   NavLink
 } from 'reactstrap';
-
-
+import logo from './asset12.png'
 import './style.css'
 const Header = () => {
 const [isOpen, setIsOpen] = useState(false);
@@ -17,7 +16,7 @@ const toggle = () => setIsOpen(!isOpen);
 
   return (<div  className="fixed-top seven-navbar">
       <Navbar className="nav-text" expand="md">
-        <NavbarBrand href="#home">SevenSight</NavbarBrand>
+        <NavbarBrand href="#home"> <img className="logo_image" src={logo} alt="Imagem da 7sight"/> </NavbarBrand>
         <NavbarToggler onClick={toggle} >
         <div className="icon"></div>
         <div className="icon"></div>
