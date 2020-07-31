@@ -12,7 +12,9 @@ class Servicos extends Component {
                <div className="traco"></div>
                <div className="servicos__itens">
                   
+               
                   <Lutties />
+               
 
                   <div className="servicos__desc">
                      <h1 className="servicos__desc__title">Desenvolvimento de sites</h1>

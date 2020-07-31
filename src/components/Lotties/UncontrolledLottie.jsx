@@ -14,19 +14,19 @@ class UncontrolledLottie extends Component {
       autoplay: true,
       animationData: animationData,
       rendererSettings: {
-        preserveAspectRatio: 'slice'
+      preserveAspectRatio: 'slice'
       }
     };
 
     return(
-      <div>
+      
         <Lottie options={defaultOptions}
-              height={500}
-              width={500}
+              height={'50%'}
+              width={'50%'}
               resizeMode="contain"
               autoZise
         />
-      </div>
+      
     )
   }
 }

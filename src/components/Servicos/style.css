@@ -14,10 +14,11 @@
     src: url(../../assets/fonts/Montserrat-Bold.ttf);
 }
 
+
+
 .container__servicos{
     display: flex;
     justify-content: center;
-    height: 100%;
     
 }
 
@@ -25,6 +26,7 @@
     width: 1400px;
     margin: 0 5%;
     background: black;  
+    height: 100%;
 }
 
 .title__servicos{
@@ -48,6 +50,8 @@
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
+
 
 .servicos__website{
     overflow: hidden;
@@ -214,6 +218,21 @@
 }
 
 @media (max-width: 900px) {
+
+    .servicos__website{
+        width: 90%;
+        margin: auto;
+    }
+    .servicos__desc{
+        padding-top: 3em;
+        width: 90%;
+        margin: auto;
+    }
+
+}
+
+@media (max-width: 380px) {
+
     .servicos__website{
         width: 90%;
         margin: auto;
