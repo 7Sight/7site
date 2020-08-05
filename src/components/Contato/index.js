@@ -22,7 +22,7 @@ const Contato = () => {
          description
       }
       try {
-         api.post('/', data)
+         api.post('/sendEmail', data)
 
          alert(`${data.name}, seu contato foi feito conosco com sucesso!\nEntraremos em contato em breve!`)
       } catch (err) {
