@@ -8,7 +8,7 @@ class Servicos extends Component {
       return (
          <section id="servicos" className="container__servicos">
             <div className="servicos">
-               <div className="title__servicos">Servicos</div>
+               <div className="title__servicos">Serviços</div>
                <div className="traco"></div>
                <div className="servicos__itens">
                   
